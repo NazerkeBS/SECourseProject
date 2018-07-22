@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controller.ModifyCourseController">
+	<center>
+		<VBox id="vbox"> 
+			<Label text="Course Code: " />
+			<TextField fx:id="courseCode"   styleClass="labelBox"/>
+
+			<Label text="New Course Name : " />
+			<TextField fx:id="newCourseName"  styleClass="labelBox" />
+
+			<Label text="New Credit: " />
+			<TextField fx:id="newCredit"   styleClass="labelBox"/>
+
+			<Label text="Start time: " />
+			<HBox id="hbox">
+				<children>
+					<DatePicker fx:id="newDate" promptText="yyyy-mm-dd" />
+					<TextField fx:id="newTime" promptText="HH:mm" />
+				</children>
+			</HBox>
+			<Button id="makeButton" text="Modify Course" onAction="#modifyCourse" />
+			<Label fx:id="modified" text="" styleClass="display"/>
+		</VBox>
+	</center>
+</BorderPane>

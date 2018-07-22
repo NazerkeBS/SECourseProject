@@ -1,0 +1,91 @@
+.welcome{
+	-fx-padding:20.0px;
+    -fx-alignment: center;
+	-fx-font-size: 40.0px;
+	-fx-label-padding: 15.0px;
+	-fx-text-fill: gray;	
+}
+
+#courseCode{
+	-fx-pref-height: 30.0px;
+	-fx-pref-width: 40.0px;
+}
+
+
+#logoutButton{
+    -fx-font-size: 12.0px;
+	-fx-max-height:22.0px;
+	-fx-background-color:rgb(51.0,77.0,179.0);
+	-fx-text-fill:white;
+}
+
+#logoutButton:hover{
+	-fx-background-color:blueviolet;
+}
+.date-picker, .text-field, #goButton{
+	-fx-min-width: 230.0px;
+}
+
+#createButton, #makeButton {
+	-fx-spacing: 10.0px;
+	-fx-font-size: 15.0px;
+	-fx-min-height: 50.0px;
+}
+#takeButton, #dropButton,#listButton, #listAllButton{
+	-fx-font-size: 12.0px;
+	-fx-pref-height: 50.0px;
+	-fx-pref-width: 100.0px;
+	-fx-background-color:rgb(204.0,179.0,255.0);
+}
+#takeButton:hover{
+-fx-background-color:rgb(153.0,128.0,230.0);
+}
+#dropButton:hover{
+	-fx-background-color:rgb(153.0,128.0,230.0);
+}
+
+#hboxx{
+-fx-spacing: 5.0px;	
+
+}
+#listButton:hover{
+	-fx-background-color:rgb(153.0,128.0,230.0);
+}
+
+#listAllButton:hover{
+	-fx-background-color:rgb(153.0,128.0,230.0);
+}
+
+
+ #makeButton:hover{
+	-fx-background-color:lightsteelblue;
+}
+#createButton:hover{
+	-fx-background-color:lightsteelblue;
+}
+
+.labelBox{
+	-fx-pref-height: 40.0px;
+	-fx-max-width: 100.0px;
+	-fx-spacing: 5.0px;
+	-fx-alignment: center ;
+}
+
+#inputvbox, #hbox {
+	-fx-spacing: 30.0px;
+	-fx-padding: 10.0px;
+}
+
+#vbox {
+	-fx-spacing: 10.0px;
+    -fx-padding: 10.0px;	
+}
+.display{
+   -fx-text-fill: green;
+   -fx-font-size: 12.0px;
+	
+}
+
+.error{
+	-fx-text-fill: red;
+}

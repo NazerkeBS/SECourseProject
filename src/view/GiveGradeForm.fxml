@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="controller.GiveGradeController">
+	<center>
+		<VBox id="vbox">
+			<Label text="Course code:" />
+			<TextField fx:id="courseCode" styleClass="labelBox" />
+
+			<HBox id="hbox">
+				<children>
+					<Label text="Student code: " />
+					<TextField fx:id="studentCode" styleClass="labelBox" />
+
+					<Label text="Grade: " />
+					<TextField fx:id="grade" promptText="between 1 to 5"
+						styleClass="labelBox" />
+
+				</children>
+			</HBox>
+
+
+			<Button id="makeButton" text="Give Grade" onAction="#giveGrade" />
+			<Label fx:id="graded" text="" />
+
+		</VBox>
+	</center>
+</BorderPane>
+

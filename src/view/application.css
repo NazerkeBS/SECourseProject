@@ -1,0 +1,46 @@
+.logTitle{
+	-fx-font-size: 40px;
+	-fx-label-padding: 15px;
+	-fx-text-fill: gray;
+}
+
+.myVBoxStyleCenter{
+	-fx-alignment: center;
+	
+}
+.myHBoxStyle{
+	
+	-fx-alignment: center;
+	-fx-spacing: 10px;
+	-fx-padding: 5px;
+}
+
+#loginButton{
+	-fx-background-color:lightblue; 
+	-fx-pref-height: 40px;
+	-fx-pref-width: 100px;
+	-fx-font-size: 12px;	
+    -fx-text-fill: darkgray;
+    -fx-alignment: center;
+    
+}
+
+
+#logText{
+	-fx-font-size: 12px;	
+    -fx-text-fill: darkgray;
+    
+}
+
+
+#loginButton:hover{
+	-fx-background-color:blueviolet;
+}
+
+#loginButton:pressed{
+	-fx-background-color: lightgray;
+}
+
+.cannotLogin{
+	-fx-text-fill: red;
+}
